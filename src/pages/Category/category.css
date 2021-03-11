@@ -1,0 +1,31 @@
+.collection-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 38px;
+  padding: 30px 0;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+button {
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.items .collection-item {
+  margin-bottom: 30px;
+}
+
+.test-warning {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+  color: red;
+}
